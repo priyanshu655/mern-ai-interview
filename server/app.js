@@ -12,8 +12,8 @@ import { redisRateLimiter } from "./middleware/redisRateLimiter.js";
 const app = express();
 
 app.use(cors({
-    origin: "https://mern-ai-interview.onrender.com",
-    credentials: true
+  origin: "https://ascendraai.onrender.com",
+  credentials: true,
 }));
 
 app.use(express.json());
